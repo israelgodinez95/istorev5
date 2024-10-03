@@ -68,10 +68,11 @@ Need to make more research about this, for vite: npm i standard -D + lines to pa
 
 ## Create connection
 
-index.js -> server.js -> config.js 
+index.js -> server.js -> config.js -> .env (remeber to add .env to gitignore)
 
+## Nodemon setup
 
-
+npm i nodemon -D or npm install nodemon --save-dev
 
 
 

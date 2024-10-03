@@ -3,6 +3,9 @@
 # Node.js dependencies (backend) 
 backend/node_modules/
 
+# Environment variables (backend)
+backend/.env
+
 # dependencies
 /node_modules
 /.pnp
