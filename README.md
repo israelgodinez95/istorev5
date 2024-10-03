@@ -74,7 +74,9 @@ index.js -> server.js -> config.js -> .env (remeber to add .env to gitignore)
 
 npm i nodemon -D or npm install nodemon --save-dev
 
+## Check script on package.json
 
+"dev": "nodemon index.js"
 
 
 
