@@ -14,7 +14,6 @@ export default function Home() {
         />
         <div>
           <h1>Welcome to my first Next.js test app!</h1>
-          <h1>Account Manager App</h1>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
