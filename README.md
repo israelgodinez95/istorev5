@@ -55,7 +55,7 @@ git push -u origin main
 
 mkdir backend
 npm init -y
-npm install express dotenv mongoose cors
+npm install express dotenv mongoose cors mongodb
 
 ## Update .gitignore
 
