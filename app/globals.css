@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+nav {
+  font-weight: bold;
+  background-color: rgb(7, 135, 120);
+}
+
+.home-div {
+  background-color: rgb(26, 35, 34);
+}
+
+footer {
+  background-color: rgb(7, 135, 120);
+}

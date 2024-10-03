@@ -11,7 +11,7 @@ export default function About() {
                     height={38}
                     priority
                 />
-                <div>
+                <div className="home-div">
                     <h1>About</h1>
                      
                 </div>
