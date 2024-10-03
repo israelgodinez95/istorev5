@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
         />
         <div className="flex flex-col gap-4 items-center">
           <h1>Welcome to my first Next.js test app!</h1>
-          <Link href="/about">About</Link>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>

@@ -2,9 +2,15 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center py-4">
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
+        <nav className="navbar">
+            <ul className="navbar-menu">
+                <li className="navbar-item">
+                    <Link href="/">Home</Link>
+                </li>
+                <li className="navbar-item">
+                    <Link href="/about">About</Link>
+                </li>   
+            </ul>
         </nav>
     );
 };
