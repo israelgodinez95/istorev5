@@ -25,6 +25,13 @@ export default function Home() {
               height={300}
               priority
             />
+            <Image
+              src="https://plus.unsplash.com/premium_photo-1678074057896-eee996d4a23e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Slider Image 2"
+              width={300}
+              height={300}
+              priority
+            />
             {/* Add more images later */}
           </div>
         </section>
