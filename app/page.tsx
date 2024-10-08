@@ -10,7 +10,7 @@ import 'swiper/css/pagination'; // Optional: for pagination dots
 
 import { Navigation } from "swiper/modules";// Import modules if you want them
 import { Pagination } from "swiper/modules";
-
+import { Autoplay } from "swiper/modules";
 export default function Home() {
   return (
     <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -31,35 +31,37 @@ export default function Home() {
       </section>
       <section className="carousel-section">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={5}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           loop={true}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
         >
           <SwiperSlide>
             <Image
               src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80"
               alt="Living Room Furniture"
-              width={700}
-              height={300}
+              layout="responsive"
+              width={1200}
+              height={500}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src="https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Office Furniture"
-              width={400}
-              height={300}
+              width={1200}
+              height={500}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Image
               src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
               alt="Dining Room Furniture"
-              width={700}
-              height={300}
+              width={1200}
+              height={500}
             />
           </SwiperSlide>
         </Swiper>

@@ -102,16 +102,23 @@ body {
 }
 
 /* Carousel Section */
-.carousel-section {
-  position: relative;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+.carousel-section .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel img {
+.carousel-image {
+  max-width: 100%;
+  height: auto; /* Ensures the aspect ratio is preserved */
+}
+
+/* Optional: Ensure the carousel section itself is responsive */
+.carousel-section {
   width: 100%;
-  height: auto;
+  max-width: 1200px; /* Limit max width for larger screens */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Key Products Section */
@@ -154,8 +161,3 @@ body {
   color: #333;
 }
 
-.carousel-section .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
